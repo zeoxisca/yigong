@@ -28,7 +28,7 @@
         <label for="remain" class="sr-only">用户名</label>
         <input type="text" name="user" id="remain" class="form-control" placeholder="用户名" required>
         <label for="content" class="sr-only">密码</label>
-        <input type="text" name="pass" id="content" class="form-control" placeholder="密码" required>
+        <input type="password" name="pass" id="content" class="form-control" placeholder="密码" required>
         <br>
         <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">发布</button>
       </form>
