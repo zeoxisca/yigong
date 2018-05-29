@@ -1,0 +1,31 @@
+body{
+	width:100%;
+	background:url(../images/3.jpg);
+	position: relative;
+	background-attachment: fixed;
+    
+}
+
+#frame{
+	/* border:#ffffff 2px solid; */
+	height:100%;
+	width:600px;
+	margin-left:400px;
+    left: 0;
+    right: 0;
+    top: ;
+    background:rgba(255,255,255,0.3);
+}
+form{
+     border-bottom: #ffffff 1px solid;
+}
+#row col-sm-6 col-md-4 thumbnail caption {
+	width:1000px;
+	float:left;
+	display:none;
+} 
+input{
+	 margin-left:500px;
+	 margin-top:-90px;
+	 
+}
