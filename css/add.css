@@ -2,6 +2,8 @@ body{
 	width:100%;
 	background:url(../images/3.jpg);
     position: relative;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 
@@ -14,7 +16,7 @@ body{
 
 #frame{
 	/* border:#ffffff 2px solid; */
-	height:600px;
+	height:650px;
 	width:600px;
 	margin-left:400px;
     left: 0;
