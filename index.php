@@ -51,17 +51,8 @@ if(isset($_POST['user'])) {
     if($_POST['user'] == '16271135' and $_POST['pass'] == '16271135') {
       echo '<script>alert("登录成功")</script>';
       echo '<script>location.href="info.php";</script>';
+    } 
   }
 }
-// if(isset($_POST['title'])) {
-//   $sql = "INSERT INTO info (`title`, `date`, `place`, `department`, `remain`, `content`, `extra`) VALUES  ('".$_POST["title"]."', '".$_POST["date"]."', '".$_POST["place"]."', '".$_POST["department"]."', '".$_POST["remain"]."', '".$_POST["content"]."', '".$_POST["extra"]."')";
-//   if ($conn->query($sql) === TRUE) {
-//     echo '<script>发布招工信息成功</script>';
-//     header('Location: info.php');
-//   } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-//   }
-// }
-
 $conn->close();
 ?>
